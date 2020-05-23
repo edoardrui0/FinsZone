@@ -1,0 +1,815 @@
+html {
+  font-size: 8px;
+}
+
+.header-desktop {
+  display: none;
+}
+
+.header-mobile {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 1;
+  background-color: #008e97;
+  top: 0;
+}
+
+.header-mobile img {
+  display: flex;
+  width: auto;
+  height: 50px;
+}
+
+.header-mobile a {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Josefin Sans";
+  color: white;
+  padding: 2px;
+}
+
+.gray-area {
+  display: block;
+  background: linear-gradient(#008e97, 25%, white);
+  padding-top: 80px;
+}
+
+.picture-box {
+  margin: 0;
+  width: 100%;
+  max-width: none;
+}
+
+.picture-box img {
+  max-width: 100%;
+}
+
+.cta-box {
+  padding: 32px 16px;
+  display: block;
+}
+
+.centered-box {
+  margin-left: 0;
+}
+
+.centered-box h1 {
+  font-size: 7.5rem;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-family: "Josefin Sans";
+}
+
+.centered-box p {
+  font-size: 5rem;
+  margin: 25px 0;
+  font-family: "Josefin Sans";
+}
+
+.centered-box .btn {
+  font-size: 3rem;
+  font-family: "Josefin Sans";
+  background-color: #005778;
+  color: rgb(226, 226, 226);
+  text-align: center;
+  padding: 10px 0px;
+  width: 100%;
+  display: block;
+}
+
+.main-box {
+  display: block;
+  margin: 16px 0;
+}
+
+.main-left-column {
+  display: none;
+}
+
+.main-right-column {
+  display: block;
+  max-width: none;
+  flex-direction: column;
+}
+
+.main-right-box {
+  display: block;
+  padding: 16px;
+}
+
+.main-right-image {
+  width: auto;
+  height: auto;
+}
+
+.main-right-image img {
+  width: 100%;
+}
+
+.main-right-content {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+  font-family: "Josefin Sans";
+}
+
+.main-right-content h1 {
+  font-size: 3.5rem;
+  color: #f58220;
+  margin-top: 8px;
+}
+
+.main-right-content h3 {
+  font-size: 2.5rem;
+  padding: 8px 0px;
+}
+
+.main-right-content p {
+  font-size: 2rem;
+  margin-top: 4px;
+}
+
+.course-box {
+  padding: 32px 16px;
+  background-color: rgba(138, 255, 243, 0.37);
+}
+
+.course-start-learning {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 3rem;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+  color: rgb(80, 80, 170);
+}
+
+.courses {
+  display: block;
+}
+
+.course-selection {
+  width: auto;
+}
+
+.course-img {
+  display: none;
+}
+
+.course-selection-wrapper {
+  padding: 4px 0;
+}
+
+.course-selection-text {
+  padding: 8px 0;
+  margin: 15px 0;
+  border-bottom: 2px solid black;
+  font-size: 4rem;
+  font-family: "Josefin Sans";
+}
+
+.course-selection-text h3,
+.course-selection-text p {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+/* .header-desktop {
+    display: none;
+}
+
+.header-mobile {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    top: 0;
+  }
+
+  .gray-area {
+    display: block;
+  }
+
+  .picture-box {
+    margin: 0;
+    width: 100%;
+    max-width: none;
+  }
+
+  .cta-box {
+    padding: 32px 16px;
+    display: block;
+  }
+
+  .centered-box {
+    margin-left: 0;
+  }
+
+  .centered-box .btn {
+    font-size: 3rem;
+    background-color: #005778;
+    color: rgb(226, 226, 226);
+    text-align: center;
+    padding: 10px 0px;
+    width: 100%;
+    display: block;
+  }
+
+  .main-box {
+    display: block;
+  }
+
+  .main-left-column {
+    display: none;
+  }
+
+  .main-right-column {
+    display: block;
+    max-width: none;
+  }
+
+  .main-right-box {
+    display: block;
+  }
+
+  .main-right-content {
+    display: block;
+  }
+
+  .main-right-image {
+    width: auto;
+}
+
+  .main-right-image img {
+    width: 100%;
+  } */
+
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 8px;
+  }
+
+  .header-mobile {
+    display: none;
+  }
+
+  .header-desktop {
+    display: flex;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+    background-color: #f58320;
+    top: 0;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    flex-grow: 1;
+  }
+
+  .logo img {
+    height: 90px;
+  }
+
+  .logo span {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+
+  .orange {
+    color: #008e97;
+  }
+
+  nav a {
+    display: inline-block;
+    padding: 5px 20px 5px 0px;
+    margin-right: 15px;
+    font-size: 1.4em;
+    font-weight: 400;
+    color: white;
+    /* border-right: 3px solid #005778; */
+  }
+
+  nav a:hover {
+    color: #005778;
+  }
+
+  .cl-effect-1 a::before,
+  .cl-effect-1 a::after {
+    display: inline-block;
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+    transition: transform 0.3s, opacity 0.2s;
+    color: white;
+  }
+  .cl-effect-1 a::before {
+    margin-right: 10px;
+    content: "<";
+    -webkit-transform: translateX(20px);
+    -moz-transform: translateX(20px);
+    transform: translateX(20px);
+    position: relative;
+    top: 1px;
+  }
+  .cl-effect-1 a::after {
+    margin-left: 10px;
+    content: ">";
+    -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    transform: translateX(-20px);
+    position: relative;
+    top: 1px;
+  }
+  .cl-effect-1 a:hover::before,
+  .cl-effect-1 a:hover::after,
+  .cl-effect-1 a:focus::before,
+  .cl-effect-1 a:focus::after {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    transform: translateX(0px);
+    color: #005778;
+  }
+
+  .gray-area {
+    display: flex;
+    background-color: #7fd79c83;
+    padding-top: 80px;
+    background: linear-gradient(#008e97, 30%, white);
+  }
+
+  .picture-box {
+    width: 60%;
+    margin: 32px 24px;
+  }
+
+  .picture-box img {
+    max-width: 100%;
+  }
+
+  .cta-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .centered-box {
+    font-size: 2rem;
+    margin-left: 24px;
+    font-family: "Nunito";
+  }
+
+  .centered-box h1 {
+    font-size: 7.5rem;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-family: "Josefin Sans";
+  }
+
+  .centered-box p {
+    font-size: 5rem;
+    margin: 25px 0;
+    font-family: "Josefin Sans";
+  }
+
+  .centered-box .btn {
+    font-size: 3rem;
+    background-color: #005778;
+    color: rgb(226, 226, 226);
+    text-align: center;
+    /* padding: 7px 200px; */
+    font-family: "Josefin Sans";
+    transition: transform 0.3s;
+  }
+
+  .btn:hover {
+    transform: scale(1.02);
+  }
+
+  .main-box {
+    display: flex;
+    margin: 16px 0;
+  }
+
+  .main-left-column {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    padding: 16px 24px;
+  }
+
+  .main-left-img img {
+    max-width: 100%;
+  }
+
+  .main-left-text h1 {
+    font-size: 5.5rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Josefin Sans";
+    margin: 24px 0px;
+  }
+
+  .main-left-text .practice {
+    display: inline-flex;
+    font-size: 5.5rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Josefin Sans";
+    margin-bottom: 24px;
+    color: #008e97;
+  }
+
+  .main-left-text span {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2.5rem;
+    font-family: "Josefin Sans";
+    text-align: justify;
+    line-height: 23.5px;
+  }
+
+  .main-left-text p {
+    display: flex;
+    font-size: 2.75rem;
+    text-align: left;
+    margin-top: 15px;
+    font-family: "Josefin Sans";
+  }
+
+  .main-right-column {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+  }
+
+  .main-right-box {
+    padding: 16px;
+  }
+
+  .main-right-image {
+    width: 57%;
+    height: auto;
+  }
+
+  .main-right-image img {
+    width: 218%;
+    height: 30rem;
+  }
+
+  .main-right-content {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding-left: 25px;
+    font-family: "Josefin Sans";
+  }
+
+  .main-right-content h1 {
+    font-size: 3rem;
+    color: #005f61;
+  }
+
+  .main-right-content h3 {
+    font-size: 2.5rem;
+    padding: 8px 0px;
+  }
+
+  .main-right-content p {
+    font-size: 2rem;
+    margin-top: 4px;
+  }
+
+  .course-box {
+    padding: 32px 72px;
+    background-color: rgba(138, 255, 243, 0.37);
+    background: linear-gradient(white, 37%, rgba(245, 131, 32, 0.247), white);
+  }
+
+  .course-start-learning {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 3rem;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+    color: rgb(80, 80, 170);
+  }
+
+  .courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .course-selection {
+    width: 33.33%;
+    transition: transform 0.3s;
+  }
+  .course-selection:hover {
+    transform: scale(1.05);
+  }
+
+  .course-selection-wrapper {
+    padding: 20px;
+  }
+
+  .course-img {
+    display: inline-block;
+  }
+
+  .course-img img {
+    width: 100%;
+    height: 30rem;
+  }
+
+  .course-selection-text {
+    padding: 16px 0;
+    font-family: "Josefin Sans";
+    border-bottom: 2px solid black;
+  }
+
+  .course-selection-text h1 {
+    font-size: 4.5rem;
+    color: rgb(80, 80, 170);
+  }
+
+  .course-selection-text p {
+    font-size: 2.25rem;
+    color: rgb(116, 78, 78);
+    margin-top: 7px;
+    display: block;
+  }
+
+  footer {
+    margin: 45px 0;
+    display: block;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+
+  .svg-inline--fa {
+    vertical-align: -0.2em;
+  }
+
+  .rounded-social-buttons {
+    text-align: center;
+  }
+
+  .rounded-social-buttons .social-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 0.35rem solid transparent;
+    padding: 10px 10px 8px 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #fefefe;
+    font-size: 1.5625rem;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 3.5rem;
+    transition: all 0.35s ease;
+    margin-right: 1.75rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .rounded-social-buttons .social-button:hover,
+  .rounded-social-buttons .social-button:focus {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+
+  .rounded-social-buttons .fa-twitter,
+  .fa-facebook-f,
+  .fa-linkedin,
+  .fa-youtube,
+  .fa-instagram {
+    font-size: 25px;
+  }
+
+  .rounded-social-buttons .social-button.facebook {
+    background: #3b5998;
+  }
+
+  .rounded-social-buttons .social-button.facebook:hover,
+  .rounded-social-buttons .social-button.facebook:focus {
+    color: #3b5998;
+    background: #fefefe;
+    border-color: #3b5998;
+  }
+
+  .rounded-social-buttons .social-button.twitter {
+    background: #55acee;
+  }
+
+  .rounded-social-buttons .social-button.twitter:hover,
+  .rounded-social-buttons .social-button.twitter:focus {
+    color: #55acee;
+    background: #fefefe;
+    border-color: #55acee;
+  }
+
+  .rounded-social-buttons .social-button.linkedin {
+    background: #007bb5;
+  }
+
+  .rounded-social-buttons .social-button.linkedin:hover,
+  .rounded-social-buttons .social-button.linkedin:focus {
+    color: #007bb5;
+    background: #fefefe;
+    border-color: #007bb5;
+  }
+
+  .rounded-social-buttons .social-button.youtube {
+    background: #bb0000;
+  }
+
+  .rounded-social-buttons .social-button.youtube:hover,
+  .rounded-social-buttons .social-button.youtube:focus {
+    color: #bb0000;
+    background: #fefefe;
+    border-color: #bb0000;
+  }
+
+  .rounded-social-buttons .social-button.instagram {
+    background: #125688;
+  }
+
+  .rounded-social-buttons .social-button.instagram:hover,
+  .rounded-social-buttons .social-button.instagram:focus {
+    color: #125688;
+    background: #fefefe;
+    border-color: #125688;
+  }
+}
+
+/* Fonts */
+/* Josefin Sans */
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v15/Qw3EZQNVED7rKGKxtqIqX5EUCEx6XHg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v15/Qw3EZQNVED7rKGKxtqIqX5EUCEx6XHg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v15/Qw3EZQNVED7rKGKxtqIqX5EUCEx6XHg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v15/Qw3EZQNVED7rKGKxtqIqX5EUCEx6XHg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v15/Qw3EZQNVED7rKGKxtqIqX5EUCEx6XHg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v15/Qw3EZQNVED7rKGKxtqIqX5EUCEx6XHg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v15/Qw3EZQNVED7rKGKxtqIqX5EUCEx6XHg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v15/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v15/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v15/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v15/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v15/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v15/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v15/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
