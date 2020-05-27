@@ -28,7 +28,7 @@ html {
 .header-mobile a {
   font-size: 2rem;
   font-weight: bold;
-  font-family: "Josefin Sans";
+  font-family: "Industry-Demi";
   color: white;
   padding: 2px;
 }
@@ -62,18 +62,18 @@ html {
   font-size: 7.5rem;
   margin-bottom: 25px;
   font-weight: bold;
-  font-family: "Josefin Sans";
+  font-family: "Industry-Demi";
 }
 
 .centered-box p {
   font-size: 5rem;
   margin: 25px 0;
-  font-family: "Josefin Sans";
+  font-family: "Industry-Demi";
 }
 
 .centered-box .btn {
   font-size: 3rem;
-  font-family: "Josefin Sans";
+  font-family: "Industry-Demi";
   background-color: #005778;
   color: rgb(226, 226, 226);
   text-align: center;
@@ -117,7 +117,7 @@ html {
   justify-content: center;
   align-items: center;
   margin-left: 16px;
-  font-family: "Josefin Sans";
+  font-family: "Industry-Demi";
 }
 
 .main-right-content h1 {
@@ -145,7 +145,7 @@ html {
   text-align: center;
   margin-bottom: 16px;
   font-size: 3rem;
-  font-family: "Josefin Sans";
+  font-family: "Industry-Demi";
   font-weight: bold;
   color: rgb(80, 80, 170);
 }
@@ -171,7 +171,7 @@ html {
   margin: 15px 0;
   border-bottom: 2px solid black;
   font-size: 4rem;
-  font-family: "Josefin Sans";
+  font-family: "Industry-Demi";
 }
 
 .course-selection-text h3,
@@ -269,7 +269,8 @@ footer {
 
   .header-desktop {
     display: flex;
-    font-family: "Josefin Sans";
+    font-family: "Industry-Black";
+    font-weight: bold;
     font-size: 14px;
     border-bottom: 1px solid black;
     align-items: center;
@@ -326,7 +327,7 @@ footer {
   }
   .cl-effect-1 a::before {
     margin-right: 10px;
-    content: "<";
+    content: "[";
     -webkit-transform: translateX(20px);
     -moz-transform: translateX(20px);
     transform: translateX(20px);
@@ -335,7 +336,7 @@ footer {
   }
   .cl-effect-1 a::after {
     margin-left: 10px;
-    content: ">";
+    content: "]";
     -webkit-transform: translateX(-20px);
     -moz-transform: translateX(-20px);
     transform: translateX(-20px);
@@ -378,20 +379,20 @@ footer {
   .centered-box {
     font-size: 2rem;
     margin-left: 24px;
-    font-family: "Nunito";
+    font-family: "Industry-Demi";
   }
 
   .centered-box h1 {
     font-size: 7.5rem;
     margin-bottom: 25px;
     font-weight: bold;
-    font-family: "Josefin Sans";
+    font-family: "Industry-Demi";
   }
 
   .centered-box p {
     font-size: 5rem;
     margin: 25px 0;
-    font-family: "Josefin Sans";
+    font-family: "Industry-Demi";
   }
 
   .centered-box .btn {
@@ -400,7 +401,7 @@ footer {
     color: rgb(226, 226, 226);
     text-align: center;
     /* padding: 7px 200px; */
-    font-family: "Josefin Sans";
+    font-family: "Industry-Demi";
     transition: transform 0.3s;
   }
 
@@ -428,7 +429,7 @@ footer {
     font-size: 5.5rem;
     font-weight: 500;
     text-align: center;
-    font-family: "Josefin Sans";
+    font-family: "Industry-Demi";
     margin: 24px 0px;
   }
 
@@ -437,7 +438,7 @@ footer {
     font-size: 5.5rem;
     font-weight: 500;
     text-align: center;
-    font-family: "Josefin Sans";
+    font-family: "Industry-Demi";
     margin-bottom: 24px;
     color: #008e97;
   }
@@ -446,7 +447,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     font-size: 2.5rem;
-    font-family: "Josefin Sans";
+    font-family: "Industry-Demi";
     text-align: justify;
     line-height: 23.5px;
   }
@@ -456,7 +457,7 @@ footer {
     font-size: 2.75rem;
     text-align: left;
     margin-top: 15px;
-    font-family: "Josefin Sans";
+    font-family: "Industry-Demi";
   }
 
   .main-right-column {
@@ -488,7 +489,7 @@ footer {
     margin-top: 10px;
     margin-left: 25px;
     padding-left: 25px;
-    font-family: "Josefin Sans";
+    font-family: "Industry-Demi";
   }
 
   .main-right-content h1 {
@@ -516,7 +517,7 @@ footer {
     text-align: center;
     margin-bottom: 16px;
     font-size: 3rem;
-    font-family: "Josefin Sans";
+    font-family: "Industry-Demi";
     font-weight: bold;
     color: rgb(80, 80, 170);
   }
@@ -550,7 +551,7 @@ footer {
 
   .course-selection-text {
     padding: 16px 0;
-    font-family: "Josefin Sans";
+    font-family: "Industry-Demi";
     border-bottom: 2px solid black;
   }
 
@@ -686,6 +687,7 @@ footer {
 }
 
 /* Fonts */
+
 /* Josefin Sans */
 @font-face {
   font-family: "Josefin Sans";
@@ -813,3 +815,43 @@ footer {
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
     U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
+/* Evogria */
+@font-face {
+  font-family: 'Evogria';
+  src: url("../fonts/Evogria.otf");
+}
+
+/* Tungsten-Bold */
+@font-face {
+  font-family: "Tungsten-Bold";
+  src: url("../fonts/561f38b1f4570de0fb8a39d691ab058c.eot"); /* IE9*/
+  src: url("../fonts/561f38b1f4570de0fb8a39d691ab058c.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/561f38b1f4570de0fb8a39d691ab058c.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/561f38b1f4570de0fb8a39d691ab058c.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/561f38b1f4570de0fb8a39d691ab058c.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/561f38b1f4570de0fb8a39d691ab058c.svg#Tungsten-Bold") format("svg"); /* iOS 4.1- */
+}
+
+/* MicroSquare-Bold */
+@font-face {
+  font-family: 'MicroSquare-Bold';
+  src: url("../fonts/MicroSquare-Bold.ttf");
+}
+
+/* Industry */
+@font-face {
+  font-family: 'Industry-Bold';
+  src: url("../fonts/Industry\ Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Industry-Black';
+  src: url('../fonts/Industry\ Black.ttf');
+}
+
+@font-face {
+  font-family: 'Industry-Demi';
+  src: url('../fonts/Industry\ Demi.ttf');
+}
+
